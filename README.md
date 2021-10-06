@@ -30,3 +30,5 @@ aws cloudformation create-stack --stack-name codepipeline-ecr-build-sf-execution
 ``` 
 3. This cloudformation template will create the Code Pipeline, which will trigger code builds, from repository when a file changes are committed into to the container folder of the repo. (Usually this will happen, when data scientist would update the model development code and commit it to the repo.)
 
+
+
